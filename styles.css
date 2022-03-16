@@ -1,26 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
 
 * {
-  font-family: 'Lato';
+    font-family: 'Lato';
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: aliceblue;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
+/*WELCOME PAGE*/
+.welcomepage { 
+  height: 100vh;
+  width:100vw;
+  background-image: url(./images/coffee.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.welcometreeimg {
+position: fixed;
+top: 50vh;
+left: 50vw;
+margin-top: -326px;
+margin-left: -330px;
+}
+.welcometext {
+position: fixed;
+top: 50vh;
+left: 50vw;
+margin-top: -326px;
+margin-left: -330px;
+height:643px;
+width: 660px;
 }
 
-body{
+/*HOME PAGE*/
+.home{
     background-color: rgb(243, 236, 232);
     height: 100vh;
     background-size: cover;
 }
-
-a, li {
-  text-decoration: none;
-  color: white;
-}
-
-h1 {
+/*h1 {
   font-size: 2.8em;
   padding: 10px 0;
   font-weight: 800;
@@ -30,7 +49,7 @@ p {
   font-size: 1.1em;
   font-weight: 100;
   letter-spacing: 5px;
-}
+}*/
 
 .title {
   font-size: x-large;
@@ -51,7 +70,7 @@ p {
   margin-top: 30px; 
 }
 .flex-item:hover {
-  background-color: rgb(153, 129, 113);
+  background-color: #827A5D;
 }
 .navbar {
   display: flex;
