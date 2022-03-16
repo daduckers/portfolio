@@ -98,6 +98,8 @@ width: 660px;
 }
 
 .artpeices {
+  max-width: 50%;
+  max-height: 700px;
   padding-left: 20px;
   padding-top: 20px;
   margin-left: 40px;
