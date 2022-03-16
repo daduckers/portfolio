@@ -6,6 +6,7 @@
     padding: 0;
     text-decoration: none;
     color: aliceblue;
+    text-decoration: none;
 }
 
 /*WELCOME PAGE*/
@@ -34,27 +35,12 @@ width: 660px;
 }
 
 /*HOME PAGE*/
-.home{
+.home {
+  display: flex;
     background-color: rgb(243, 236, 232);
     height: 100vh;
     background-size: cover;
 }
-/*h1 {
-  font-size: 2.8em;
-  padding: 10px 0;
-  font-weight: 800;
-  color: rgb(25, 139, 143)
-}
-p {
-  font-size: 1.1em;
-  font-weight: 100;
-  letter-spacing: 5px;
-}*/
-
-.title {
-  font-size: x-large;
-}
-
 .flex-item {
   display: flex;
   justify-content: space-between;
@@ -84,10 +70,36 @@ p {
   height: 25vh;
   width: 100vw;
 }
-
 .nav-buttons {
   display: flex;
   margin-right: 20px;
   max-width: 100%;
   max-height: 100%;
+}
+
+/*ART PAGE*/
+.artbar {
+  background-color: #CAC1AA;
+  height: 50px;
+  width: 900px;
+  margin-top: 30px;
+  margin-left: 30px;
+  padding-left: 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.artmuseum {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.artpeices {
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 40px;
+  display: inline-block;
 }
