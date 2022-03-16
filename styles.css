@@ -130,7 +130,7 @@ width: 660px;
 }
 .seniortext {
   font-family: 'Lato';
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.4;
 }
 
@@ -149,6 +149,7 @@ width: 660px;
   width: 700px;
   padding-left: 15px;
   padding-top: 10px;
+  padding-right: 15px;
   background-color: #827A5D;
   border-radius: 20px;
 }
