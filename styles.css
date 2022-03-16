@@ -162,3 +162,34 @@ width: 660px;
   font-size: 20px;
   line-height: 1.4;
 }
+
+.website {
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+.websitepic {
+  height: 450px;
+  width: 800px;
+  display: flex;
+  justify-content: contain;
+}
+.websitedescript {
+  flex-wrap: wrap;
+  height: 300px;
+  width: 700px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-right: 15px;
+  background-color: #827A5D;
+  border-radius: 20px;
+}
+.websitetext {
+  font-family: 'Lato';
+  font-size: 20px;
+  line-height: 1.4;
+}
