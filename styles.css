@@ -74,23 +74,11 @@ width: 660px;
 
 
 /*HOME PAGE*/
-.boxme {
-display: flex;
-justify-content: flex-start;
-align-items: center;
-height: 30%;
-width: 30%;
-}
-.boxpic {
-  display: flex;
-  height: 300px;
-}
 .home {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
 .homedescript {
   display: flex;
   height: 800px;
@@ -126,10 +114,23 @@ width: 30%;
 
   padding-left: 20px;
   padding-top: 20px;
+
+  background-color: rgba(0, 0, 0, 0.342);
 }
 /*.picofme {
   height: 100%;
   width: 100%;
+}
+.boxme {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+height: 30%;
+width: 30%;
+}
+.boxpic {
+  display: flex;
+  height: 300px;
 }*/
 
 /*ART PAGE*/
@@ -189,7 +190,6 @@ width: 30%;
   font-size: 20px;
   line-height: 1.4;
 }
-
 .gradeproject {
   width:100%;
   height:auto;
@@ -218,7 +218,6 @@ width: 30%;
   font-size: 20px;
   line-height: 1.4;
 }
-
 .website {
   width: 100%;
   height:auto;
