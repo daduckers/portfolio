@@ -220,7 +220,7 @@ width: 15%;
 }
 .artpeices {
   border-radius: 20px;
-  margin: 40px 40px;
+  margin: 30px 0 0 0;
 }
 .commissiontext {
   display: flex;
@@ -236,7 +236,7 @@ width: 15%;
 }
 .commissions {
   display: flex;
-  justify-content:space-evenly;
+  justify-content:space-between;
   align-items: center;
   background-color: #CAC1AA;
   margin: 0px 40px 40px 40px;
