@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    font-family: 'Lato';
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -18,6 +19,7 @@
   background-repeat: no-repeat;
 }
 .welcometreeimg {
+  border-radius: 50%;
 position: fixed;
 top: 50vh;
 left: 50vw;
@@ -33,7 +35,13 @@ margin-left: -330px;
 height:643px;
 width: 660px;
 }
-
+.welcometreeimg:hover {
+  background-color: #cac1aa25;
+}
+/*Constant Body*/
+.bodycolor {
+  background-color: #e9e5da;
+}
 
 /*HEADER-NAV BAR*/
 .flex-item {
@@ -48,30 +56,41 @@ width: 660px;
   border-radius: 10px;
   cursor: pointer;
   font-weight: 300;
-  margin-top: 30px; 
 }
 .flex-item:hover {
   background-color: #827A5D;
 }
 .navbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   padding-right: 0px;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
   height: 120px;
   text-align: center;
-  background-image: url(./images/bannermeep.png);
-  height: 25vh;
-  width: 100vw;
+  background-color: #CAC1AA;
+  min-height: 200px;
 }
+@media screen and (max-width: 1500px) {
+  .navbar {
+    flex-direction: column;
+    min-height: 300px;
+    min-width: 864px;
+  }
+}
+
+.sig {
+  transform: translate(0px, -9px);
+}
+
 .nav-buttons {
   display: flex;
   margin-right: 20px;
   max-width: 100%;
   max-height: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
-
 
 /*HOME PAGE*/
 .home {
@@ -90,8 +109,18 @@ width: 660px;
   border-radius: 20px;
   margin-bottom: 40px;
   margin-top: 40px;
-  margin-left: 60px;
-  margin-right: 60px;
+ 
+}
+.sidetrees{
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 800px;
+  background-image: url(./images/Ltrees.png);
+width: 15%;
 }
 .abouttext {
   display: flex;
@@ -110,32 +139,28 @@ width: 660px;
 
   border-radius: 10px;
   cursor: pointer;
-  font-weight: 300;
+  font-weight: 350;
 
   padding-left: 20px;
   padding-top: 20px;
 
   background-color: rgba(0, 0, 0, 0.342);
 }
-
 .tinybox {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
 }
 .tinyboxdescript {
   display: flex;
   height: fit-content;
-  width: 90%;
   background-color: #CAC1AA;
-
+  margin: 0px 40px;
   border-radius: 30px;
   margin-bottom: 40px;
-  margin-top: 40px;
-  margin-left: 60px;
-  margin-right: 60px;
 }
 .bigtext {
+  font-weight: 500;
   font-size: 30px;
   margin-bottom: 20px;
 }
@@ -147,56 +172,82 @@ width: 660px;
   font-size: 20px;
   display: inline-block;
   border: 1px solid white;
-  padding: 10px 20px;
+  padding: 24px 30px;
 
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 30px;
 
   border-radius: 10px;
-  cursor: pointer;
-  font-weight: 300;
-
-  padding-left: 20px;
-  padding-top: 20px;
+  font-weight: 400;
 }
 .tinypics {
   display: flex;
   max-width: 29%;
   border-radius: 20px;
 
-  margin: 17px;
+  margin: 0px 40px;
+  margin-bottom: 40px;
 }
+
 /*ART PAGE*/
-.artbar {
-  background-color: #CAC1AA;
-  height: 50px;
-  width: 900px;
-  margin-top: 30px;
-  margin-left: 30px;
-  padding-left: 20px;
-  border-radius: 20px;
+.openingart {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  margin: 40px 40px;
 }
-.artmuseum {
+.vines {
+  border-radius: 20px;
+  max-height: 700px;
+}
+.sheepies {
+  border-radius: 20px;
+  width: 1500px;
+  margin: 0px 10px;
+}
+.list1 {
   display: flex;
+  justify-content: space-between;
+  background-color: #CAC1AA;
+  margin: 40px 40px;
+  border-radius: 20px;
+}
+.list2 {
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  align-items: center;
-  flex-wrap: wrap;
+  background-color: #CAC1AA;
+  margin: 40px 40px;
+  border-radius: 20px;
 }
 .artpeices {
-  max-width: 50%;
-  max-height: 700px;
-  padding-left: 20px;
-  padding-top: 20px;
-  margin-left: 40px;
-  display: inline-block;
+  border-radius: 20px;
+  margin: 50px 50px;
 }
-.artpeices:hover {
-  opacity: 50%;
+.commissiontext {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 0px 0px;
+  font-weight: 400;
+  font-size: 30px;
+}
+#small {
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 300;
+}
+.commissions {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #CAC1AA;
+  margin: 0px 40px 40px 40px;
+  border-radius: 20px;
+}
+.twittertext {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px;
+  font-weight: 400;
+  font-size: 30px;
 }
 
 /*PROJECT PAGE*/
@@ -223,9 +274,9 @@ width: 660px;
   border-radius: 20px;
 }
 .seniortext {
-  font-family: 'Lato';
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  line-height: 1.4;
+  margin: 20px 20px;
 }
 .gradeproject {
   width:100%;
@@ -238,7 +289,7 @@ width: 660px;
 }
 .gradeprojectdescript {
   flex-wrap: wrap;
-  height: 300px;
+  height: 400px;
   width: 700px;
   padding-left: 15px;
   padding-top: 10px;
@@ -251,9 +302,9 @@ width: 660px;
   width: 800px;
 }
 .gradeprojecttext {
-  font-family: 'Lato';
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  line-height: 1.4;
+  margin: 20px 20px;
 }
 .website {
   width: 100%;
@@ -269,6 +320,7 @@ width: 660px;
   width: 800px;
   display: flex;
   justify-content: contain;
+  margin-bottom: 40px;
 }
 .websitedescript {
   flex-wrap: wrap;
@@ -281,9 +333,9 @@ width: 660px;
   border-radius: 20px;
 }
 .websitetext {
-  font-family: 'Lato';
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
-  line-height: 1.4;
+  margin: 20px 20px;
 }
 
 /*FRIENDS PAGE*/
