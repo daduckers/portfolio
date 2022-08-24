@@ -384,13 +384,7 @@ width: 660px;
 .Animation_Video_Box {
   display: flex;
   justify-content: center;
-  width: 87%;
-}
-.Animation_Video {
-  position: absolute;
-  width: 87%;
-  height: 100%;
-  border-radius: 20px;
+  width: 100%;
 }
 /*FRIENDS PAGE*/
 .Friend_Page {
