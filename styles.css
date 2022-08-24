@@ -381,7 +381,17 @@ width: 660px;
   margin: 0px 0px;
   width:82%;
 }
-
+.Animation_Video_Box {
+  display: flex;
+  justify-content: center;
+  width: 87%;
+}
+.Animation_Video {
+  position: absolute;
+  width: 87%;
+  height: 100%;
+  border-radius: 20px;
+}
 /*FRIENDS PAGE*/
 .Friend_Page {
   display: flex;
