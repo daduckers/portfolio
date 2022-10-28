@@ -50,19 +50,20 @@ width: 660px;
   justify-content: space-between;
   align-items: center;
   width: 100vw;
-  height:150px;
+  height:100px;
   background-color: rgb(123, 46, 46);
   margin: 0px;
 }
 .Morp_And_Sig {
   display: flex;
+  align-items: center;
   flex-direction: row;
   margin-left: 10px;
 }
 .Morp {
   margin: 10px;
   border-radius: 20px;
-  height: 100px;
+  height: 80px;
 }
 .Sig {
   margin: 10px;
@@ -109,14 +110,15 @@ width: 660px;
 .home {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
 }
 .intro {
   display: flex;
   justify-content: space-evenly;
   height: fit-content;
-  width: 100vw;
+  width: 82vw;
   margin: 10px;
 }
 .Yam_Bike_Bridge {
@@ -292,6 +294,20 @@ width: 660px;
 .Insta_Box {
   display: flex;
   justify-content: center;
+}
+.LittleGuyBox {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.SecretImage {
+  margin: 10px;
+  border-radius: 20px;
+}
+.SecretImage:hover {
+  cursor: pointer;
+  background-color: #d4cdb8;
 }
 /*CAD_Page*/
 .CAD_Page {
