@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Comfortaa&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 * {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -305,10 +306,7 @@ width: 660px;
   margin: 10px;
   border-radius: 20px;
 }
-.SecretImage:hover {
-  cursor: pointer;
-  background-color: #d4cdb8;
-}
+
 /*CAD_Page*/
 .CAD_Page {
   width: 100%;
@@ -460,9 +458,22 @@ width: 660px;
   color:rgb(224, 142, 29);
 }
 
-
-
-
+/*SECRET PAGE*/
+.Secret_Font {
+  font-family: 'Press Start 2P', cursive;
+  font-size: medium;
+  color: rgb(0, 0, 0);
+}
+.Secret_Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Secret_Font_Box {
+  margin: 40px;
+}
 
 /*Carousel*/
 .image-slideshow {
