@@ -318,59 +318,29 @@ width: 660px;
 /*CAD_Page*/
 .CAD_Page {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.Outer_CAD_Box {
+.CAD_Box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 75%;
+  margin: 10px 0px 20px 0px;
+}
+.CAD_Image_Rows {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
-  margin: 40px 20px 0px 20px;
 }
-.CAD_Images {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.CAD_Image {
+  width: 50%;
+  margin: 0px;
 }
-.Render {
-  width:25%;
-}
-#Leftmost {
-  border-radius: 0px 0px 0px 20px;
-}
-#Rightmost {
-  border-radius: 0px 0px 20px 0px;
-}
-.Small_Link_Font {
-  font-size: 15px;
-    font-weight: 600;
-}
-.CAD_Heading_Box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
 
-  background-color: rgb(168, 85, 72);
-}
-.Title_Box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: fit-content;
-  padding: 0px 20px 0px 20px;
-  width: 600px;
-}
-.CAD_Description {
-  font-family: 'Baloo 2', cursive;
-    color: #e9e5da;
-    font-size: 15px;
-    font-weight: 500;
-    min-width: 100px;
-    margin: 30px;
-}
 /*Art Page*/
 .Art_Page {
   width: 100vw;
