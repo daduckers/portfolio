@@ -43,6 +43,11 @@ width: 660px;
 /*Constant Body*/
 .bodycolor {
   background-color: #e9e5da;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Top Banner*/
@@ -50,7 +55,7 @@ width: 660px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height:100px;
   background-color: rgb(123, 46, 46);
   margin: 0px;
@@ -88,7 +93,7 @@ width: 660px;
   background-color:rgb(81, 22, 22);
 }
 .Nav_Buttons {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 /*Site Bottom*/
 .Site_Bottom {
@@ -113,26 +118,27 @@ width: 660px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
+  margin-top: 40px;
 }
 .intro {
   display: flex;
   justify-content: space-evenly;
   height: fit-content;
-  width: 82vw;
+  width: 100%;
   margin: 10px;
 }
 .Yam_Bike_Bridge {
   border-radius: 20px 0px 0px 20px;
   height: 500px;
-  margin: 20px 0px 20px 20px;
+  margin: 0px;
 }
 .Im_Janna {
   display: flex;
   align-items: center;
   background-color: rgb(168, 85, 72);
   border-radius: 0px 20px 20px 0px;
-  margin: 20px 40px 20px 0px;
+  margin: 0px;
   height: 500px;
 }
 .Im_Janna_Font {
@@ -148,10 +154,10 @@ width: 660px;
   align-items: flex-start;
 }
 #first {
-  margin: 0px 10px 20px 20px;
+  margin: 0px 10px 0px 0px;
 }
 #second {
-  margin: 0px 40px 20px 20px;
+  margin: 0px 0px 0px 10px;
 }
 .Bio_Heading {
   border-radius: 20px;
@@ -212,10 +218,11 @@ width: 660px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100vw;
+  align-items: center;
+  width: 75vw;
 }
 .Engineering_Outer_Box {
-  margin: 20px;
+  margin: 20px 0px 20px 0px;
 }
 .Heading_Box{
   display: flex;
@@ -234,44 +241,43 @@ width: 660px;
   display: flex;
   justify-content: center;
   position: relative;
-  padding-bottom: 40.25%; /* 16:9 */
+  padding-bottom: 50%; /* 16:9 */
   height: 0;
-  margin: 0px 40px;
 }
 .Automata_Images {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
- 
+
   border-radius: 20px;
-  margin: 0px 0px;
 }
 .Description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: fit-content;
-  margin: 0px 100px;
+  margin: 0px;
 }
 .Description_Font {
   font-family: 'Baloo 2', cursive;
     color: rgb(168, 85, 72);
     font-size: 20px;
     font-weight: 500;
-    margin: 20px;
+    margin: 20px 0px 0px 0px;
 }
 #Thinner_Description {
   width: 70%;
 }
 .framevideo {
   position: absolute;
-  width: 87%;
+  width: 100%;
   height: 100%;
   border-radius: 20px;
 }
 .projectpic {
   border-radius: 20px;
-  margin: 20px 20px 0px 20px;
+  margin: 40px 0px 0px 0px;
+  width: 30%;
 }
 .Robotic_Hand_Image {
   display: flex;
@@ -281,7 +287,7 @@ width: 660px;
 }
 .Robotic_Hand_File {
   border-radius: 20px;
-  width: 82%;
+  width: 100%;
 }
 .Link_Red {
   font-family: 'Baloo 2', cursive;
@@ -309,7 +315,7 @@ width: 660px;
 
 /*CAD_Page*/
 .CAD_Page {
-  width: 100%;
+  width: 100vw;
 }
 .Outer_CAD_Box {
   display: flex;
@@ -366,12 +372,15 @@ width: 660px;
 /*Art Page*/
 .Art_Page {
   width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Art_Outer_Box {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 75%;
   margin: 40px 0px;
   /*border: 4px double rgb(168, 85, 72);*/
   border-radius: 20px;
@@ -384,7 +393,7 @@ width: 660px;
 .Art_Box {
   display: flex;
   justify-content: space-between;
-  width: 82%;
+  width: 100%;
 }
 .Art {
   border-radius: 20px;
@@ -397,18 +406,17 @@ width: 660px;
 .sheepies {
   border-radius: 20px;
   margin: 0px 0px;
-  width:82%;
+  width:100%;
 }
 .Animation_Video_Box {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 470px;
+  min-height: 315px;
 }
 .Animation_Video {
   position: absolute;
-  width: 82%;
-  height: 50%;
+  width: 75%;
   border-radius: 20px;
 }
 /*FRIENDS PAGE*/
@@ -518,3 +526,12 @@ width: 660px;
      83%,91.2% { transform: translateX(-6000px); }
      91.3%,100% { transform: translateX(-6600px); }
 }
+
+
+
+
+
+
+
+
+
