@@ -130,7 +130,7 @@ width: 660px;
 }
 .Yam_Bike_Bridge {
   border-radius: 20px 0px 0px 20px;
-  height: 500px;
+  width: 70%;
   margin: 0px;
 }
 .Im_Janna {
@@ -139,7 +139,7 @@ width: 660px;
   background-color: rgb(168, 85, 72);
   border-radius: 0px 20px 20px 0px;
   margin: 0px;
-  height: 500px;
+  width: 30%;
 }
 .Im_Janna_Font {
   font-family: 'Baloo 2', cursive;
@@ -177,11 +177,13 @@ width: 660px;
   background-color: rgb(168, 85, 72);
   border-radius: 20px;
   width: 100%;
+  margin: 0px 0px 10px 0px;
 }
 .Contact {
   background-color: rgb(168, 85, 72);
   border-radius: 0px 0px 20px 20px;
   width: 100%;
+  margin: 0px 0px 10px 0px;
 }
 .Resume:hover {
   color:rgb(101, 44, 35);
@@ -429,7 +431,7 @@ width: 660px;
 }
 .Friends_Box {
   margin: 20px;
-  background-color:rgb(123, 46, 46);
+  background-color:rgb(168, 85, 72);
   border-radius: 20px;
   padding: 20px;
   width: 70%;
