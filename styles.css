@@ -25,20 +25,18 @@
 position: fixed;
 top: 40vh;
 left: 50vw;
-margin-top: -326px;
-margin-left: -330px;
+margin-top: -235px;
+margin-left: -235px;
 }
 .welcometext {
 position: fixed;
 top: 50vh;
 left: 50vw;
-margin-top: -326px;
-margin-left: -330px;
-height:643px;
-width: 660px;
+height:500px;
+width: 500px;
 }
 .welcometreeimg:hover {
-  background-color: #cac1aa25;
+  background-color: #44423d38;
 }
 
 /*Constant Body*/
