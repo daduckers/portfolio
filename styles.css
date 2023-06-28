@@ -15,14 +15,15 @@
 .welcomepage { 
   height: 100vh;
   width:100vw;
-  background-image: url(./images/coffee.png);
+  background-image: url(./images/DSC_0467_1.jpeg);
+  /*background-color:  rgb(123, 46, 46);*/
   background-size: cover;
   background-repeat: no-repeat;
 }
 .welcometreeimg {
   border-radius: 50%;
 position: fixed;
-top: 50vh;
+top: 40vh;
 left: 50vw;
 margin-top: -326px;
 margin-left: -330px;
@@ -317,6 +318,17 @@ width: 660px;
   justify-content: center;
   min-width: 70%;
 }
+
+#Passive_Solar {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#Listening_Device {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .LittleGuyBox {
   width: 100vw;
   display: flex;
@@ -341,7 +353,7 @@ width: 660px;
   justify-content: center;
   align-items: center;
   width: 75%;
-  margin: 10px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
 }
 .CAD_Image_Rows {
   display: flex;
@@ -350,7 +362,7 @@ width: 660px;
   width: 100%;
 }
 .CAD_Image {
-  width: 50%;
+  width: 33.3%;
   margin: 0px;
 }
 
@@ -366,7 +378,7 @@ width: 660px;
   flex-direction: column;
   align-items: center;
   width: 75%;
-  margin: 40px 0px;
+  margin: 20px 0px;
   /*border: 4px double rgb(168, 85, 72);*/
   border-radius: 20px;
 }
