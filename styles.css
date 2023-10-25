@@ -172,6 +172,10 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+
+#intro_links {
+  margin: 0px 40px 40px 40px;
+}
 #first {
   margin: 0px 10px 0px 0px;
 }
@@ -435,6 +439,86 @@
   width: 75%;
   border-radius: 20px;
 }
+
+/*WRITING PAGE*/
+.Writing_Page {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Writing_Outer_Box {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Writing_Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 20px 0px 20px 0px;
+}
+.Writing_Item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Writing_Image {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ max-width: 40%;
+ width: fit-content;
+ margin: 0px 0px 0px 20px;
+}
+.Writing_Image_Item {
+  display: flex;
+  margin: 10px;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.Writing_Title_Box {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: fit-content;
+}
+.Writing_Text_Font {
+  font-family: 'Baloo 2', cursive;
+    color: rgb(168, 85, 72);
+    font-size: 20px;
+    font-weight: 500;
+}
+.Title {
+  font-family: 'Baloo 2', cursive;
+    color: rgb(168, 85, 72);
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0px 0px 20px 0px;
+}
+#portfolio_piece {
+  background-color: rgb(168, 85, 72);
+  border-radius: 20px;
+  padding: 40px 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#Left {
+  display: flex;
+  justify-content: end;
+}
+.Center_Writing {
+  width: 60%;
+}
+
+
 /*FRIENDS PAGE*/
 .Friend_Page {
   display: flex;
