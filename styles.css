@@ -305,6 +305,11 @@
   margin: 40px 0px 0px 0px;
   width: 30%;
 }
+.Werfen_Image {
+  border-radius: 20px;
+  max-width: 100%;
+  min-width: none;
+}
 .Robotic_Hand_Image {
   display: flex;
   justify-content: center;
@@ -313,7 +318,7 @@
 }
 .Robotic_Hand_File {
   border-radius: 20px;
-  width: 100%;
+  max-width: 90%;
 }
 .Link_Red {
   font-family: 'Baloo 2', cursive;
@@ -336,10 +341,24 @@
   width: 30%;
   margin: 0px;
 }
+#Row_Width_Werfen {
+  width: 40%;
+  margin: 0px 0px 0px 40px;
+}
 .Insta_Box {
   display: flex;
   justify-content: center;
   min-width: 70%;
+}
+.Werfen_Box {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+#Robotic_Hand {
+  display: flex;
+  justify-content: flex-end;
 }
 
 #Passive_Solar {
