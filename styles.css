@@ -305,6 +305,10 @@
   margin: 40px 0px 0px 0px;
   width: 30%;
 }
+.Capstone_File {
+  border-radius: 20px;
+  max-width: 90%;
+}
 .Werfen_Image {
   border-radius: 20px;
   max-width: 100%;
@@ -337,11 +341,21 @@
   width: 100%;
   margin: 40px 0 0 0;
 }
+
+#Capstone_Row {
+  display: flex;
+  justify-content: space-between;
+}
+
 #Row_Width {
   width: 30%;
   margin: 0px;
 }
 #Row_Width_Werfen {
+  width: 40%;
+  margin: 0px 0px 0px 40px;
+}
+#Capstone_Width {
   width: 40%;
   margin: 0px 0px 0px 40px;
 }
@@ -351,6 +365,11 @@
   min-width: 70%;
 }
 .Werfen_Box {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+}
+.Capstone_Box {
   display: flex;
   justify-content: flex-start;
   width: 60%;
@@ -381,6 +400,22 @@
   margin: 10px;
   border-radius: 20px;
 }
+
+
+/*CAPSTONE_PAGE*/
+.Capstone_Box {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Capstone_Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
 
 /*CAD_Page*/
 .CAD_Page {
