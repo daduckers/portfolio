@@ -446,6 +446,11 @@
   width: 33.3%;
   margin: 0px;
 }
+.Drawings {
+  width: 48%;
+  margin: 0px;
+  border-radius: 0px;
+}
 
 /*Art Page*/
 .Art_Page {
