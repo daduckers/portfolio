@@ -173,6 +173,9 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+#second_intro {
+  max-width: 25%;
+}
 
 #intro_links {
   margin: 0px 40px 40px 40px;
@@ -209,6 +212,9 @@
   border-radius: 0px 0px 20px 20px;
   width: 100%;
   margin: 0px 0px 10px 0px;
+}
+.ContactBox {
+  max-width: 100%;
 }
 .Resume:hover {
   color:rgb(101, 44, 35);
